@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-.controls { border-radius:40px;
+.controls {
+    border-radius: 40px;
     cursor: pointer;
     color: black;
     background-color: black;
@@ -97,8 +98,12 @@ p {
     color: blue;
 }
 
+    @media screen and (max-width:380px){
+
+        
+       h1{  font-size:36px;}
+    }
 
 
 
 
-/*https://source.unsplash.com/1600x900/?landscape
