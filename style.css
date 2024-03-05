@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+.controls { border-radius:40px;
+    cursor: pointer;
+    color: black;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 body {
     background-image: url("./assets/vinagdores.webp");
     background-size: cover;
